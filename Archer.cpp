@@ -8,3 +8,4 @@ Archer::Archer() : IntEnergy::IntEnergy(150, 150, 200) {
 Archer::~Archer() {
 	cout << "궁수 사망" << endl;
 }
+
