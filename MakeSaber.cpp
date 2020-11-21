@@ -1,5 +1,4 @@
-#include "IntEnergy.h"
-#include "Saber.h"
+#include "MakeSaber.h"
 
 Saber::Saber() : IntEnergy::IntEnergy(200, 100, 50) {
 	cout << "검사 생성" << endl;

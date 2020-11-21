@@ -1,5 +1,4 @@
-#include "IntEnergy.h"
-#include "Berserker.h"
+#include "MakeBerserker.h"
 
 Berserker::Berserker() : IntEnergy::IntEnergy(300, 0, 150) {
 	cout << "광전사 생성" << endl;

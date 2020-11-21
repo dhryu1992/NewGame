@@ -1,5 +1,4 @@
-#include "IntEnergy.h"
-#include "Archer.h"
+#include "MakeArcher.h"
 
 Archer::Archer() : IntEnergy::IntEnergy(150, 150, 200) {
 	cout << "궁수 생성" << endl;

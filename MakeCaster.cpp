@@ -1,5 +1,4 @@
-#include "IntEnergy.h"
-#include "Caster.h"
+#include "MakeCaster.h"
 
 Caster::Caster() : IntEnergy::IntEnergy(100, 200, 50) {
 	cout << "마법사 생성" << endl;
