@@ -16,7 +16,7 @@ int main() {
 	char Lim_Name[20] = "1234567891234567891";
 	//strlen(Lim_Name) is 6.
 	int My_Age = 0;
-	int SelectCharacter;
+	int NumSelectCharacter;
 	int SelectMotion;
     string *My_Name = new string("My_Name");
 	cout << "Welcome to ShuLand!\n" << endl;
@@ -38,47 +38,36 @@ int main() {
 
 	cout << "Select your Character." << endl;
 	cout << "1. Saber\n2. Archer\n3. Caster\n4. Berserker\n" << endl;
-	cin >> SelectCharacter;
+	cin >> NumSelectCharacter;
     enum SelectCharacter {
-        Saber = 1,
-        Archer,
-        Caster, 
-        Berserker
+        SABER = 0,
+        ARCHER,
+        CASTER, 
+        BERSERKER
     };
 
-    enum SelectCharacter select;
-    /*if(select == 1) {
-        Saber* saber = new Saber;
-    }else if(select == 2) {
-        Archer* archer = new Archer;
-    }else if(select == 3) {
-        Caster* caster = new Caster;
-    }else {
-        Berserker* berserker = new Berserker;
-    };*/
-
-	switch(select) {
-		case 1 : {
+	switch(NumSelectCharacter) {
+		case SABER : {
 			Saber* saber = new Saber;
 			break;
-		};
+		}
 		
-		case 2 : {
+		case ARCHER : {
 			Archer* archer = new Archer;
 			break;
-		};
+		}
 
-		case 3 : {
+		case CASTER : {
 			Caster* caster = new Caster;
 			break;
-		};
+		}
 
-		case 4: {
+		case BERSERKER : {
 			Berserker* berserker = new Berserker;
 			break;
-		};
+		}
 		
-    }
+    };
 
 	cout << "\nThe Game Begins From Now." << endl;
 	cout << "First of all, You should be trained. here is GYM.\nThere is a Moster.\n" << endl;
