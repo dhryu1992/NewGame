@@ -40,10 +40,10 @@ int main() {
 	cout << "1. Saber\n2. Archer\n3. Caster\n4. Berserker\n" << endl;
 	cin >> SelectCharacter;
     enum SelectCharacter {
-        SABER = 1,
-        ARCHER,
-        CASTER, 
-        BERSERKER
+        Saber = 1,
+        Archer,
+        Caster, 
+        Berserker
     };
 
     enum SelectCharacter select;
