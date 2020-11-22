@@ -1,0 +1,11 @@
+#include "MakeAccount.h"
+
+MakeAccount::MakeAccount(string* m_select_id, int m_select_age) 
+	: m_Id(m_select_id), m_Age(m_select_age) {
+		cout << "And Complete to Make your new Account! " << "(" << m_Id << ", " << m_Age << ")\n" << endl;
+	}
+
+MakeAccount::~MakeAccount() {
+		cout << "And Complete to Delete your Account!\n" << endl;
+	}
+

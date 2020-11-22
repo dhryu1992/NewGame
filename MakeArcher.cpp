@@ -1,10 +1,10 @@
 #include "MakeArcher.h"
 
 Archer::Archer() : IntEnergy::IntEnergy(150, 150, 200) {
-	cout << "궁수 생성" << endl;
+	cout << "You Select Archer!" << endl;
 } 
 
 Archer::~Archer() {
-	cout << "궁수 사망" << endl;
+	cout << "Archer Terminated!" << endl;
 }
 

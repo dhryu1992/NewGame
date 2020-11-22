@@ -7,7 +7,7 @@ using namespace std;
 class Caster : public IntEnergy {
 	public:
 		Caster();
-		~Caster();
+		virtual ~Caster();
 };
 
 #endif

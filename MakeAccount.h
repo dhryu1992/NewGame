@@ -1,14 +1,15 @@
 #ifndef __MAKEACCOUNT_H__
 #define __MAKEACCOUNT_H__
+#include <cstring>
 #include <iostream>
 using namespace std;
 
 class MakeAccount {
 	private:
-		char* m_Id;
+		string* m_Id;
 		int m_Age;
 	public:
-		MakeAccount(char*, int);
+		MakeAccount(string*, int);
 		~MakeAccount();
 };
 

@@ -1,9 +1,9 @@
 #include "MakeSaber.h"
 
 Saber::Saber() : IntEnergy::IntEnergy(200, 100, 50) {
-	cout << "검사 생성" << endl;
+	cout << "You Select Saber!" << endl;
 } 
 
 Saber::~Saber() {
-	cout << "검사 사망" << endl;
+	cout << "Saber Terminated!" << endl;
 }

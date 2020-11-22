@@ -1,0 +1,3 @@
+/home/shu/NewGame/CMakeFiles/edit_cache.dir
+/home/shu/NewGame/CMakeFiles/rebuild_cache.dir
+/home/shu/NewGame/CMakeFiles/mugGame.exe.dir
