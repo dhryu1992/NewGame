@@ -12,6 +12,7 @@ class MakeMonster : public IntEnergy {
 	public:
 		MakeMonster();
 		~MakeMonster();
+        int injured(int);
 };
 
 #endif

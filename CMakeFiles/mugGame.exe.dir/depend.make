@@ -4,8 +4,13 @@
 CMakeFiles/mugGame.exe.dir/IntEnergy.cpp.o: IntEnergy.cpp
 CMakeFiles/mugGame.exe.dir/IntEnergy.cpp.o: IntEnergy.h
 
+CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: IntEnergy.h
 CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeAccount.cpp
 CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeAccount.h
+CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeArcher.h
+CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeBerserker.h
+CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeCaster.h
+CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeSaber.h
 
 CMakeFiles/mugGame.exe.dir/MakeArcher.cpp.o: IntEnergy.h
 CMakeFiles/mugGame.exe.dir/MakeArcher.cpp.o: MakeArcher.cpp

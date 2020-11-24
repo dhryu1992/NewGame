@@ -5,8 +5,13 @@ CMakeFiles/mugGame.exe.dir/IntEnergy.cpp.o
  /home/shu/NewGame/IntEnergy.cpp
  /home/shu/NewGame/IntEnergy.h
 CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o
+ /home/shu/NewGame/IntEnergy.h
  /home/shu/NewGame/MakeAccount.cpp
  /home/shu/NewGame/MakeAccount.h
+ /home/shu/NewGame/MakeArcher.h
+ /home/shu/NewGame/MakeBerserker.h
+ /home/shu/NewGame/MakeCaster.h
+ /home/shu/NewGame/MakeSaber.h
 CMakeFiles/mugGame.exe.dir/MakeArcher.cpp.o
  /home/shu/NewGame/IntEnergy.h
  /home/shu/NewGame/MakeArcher.cpp

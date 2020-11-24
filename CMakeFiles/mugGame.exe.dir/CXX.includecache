@@ -10,11 +10,23 @@
 iostream
 -
 
+/home/shu/NewGame/MakeAccount.cpp
+MakeAccount.h
+/home/shu/NewGame/MakeAccount.h
+
 /home/shu/NewGame/MakeAccount.h
 cstring
 -
 iostream
 -
+MakeSaber.h
+/home/shu/NewGame/MakeSaber.h
+MakeArcher.h
+/home/shu/NewGame/MakeArcher.h
+MakeCaster.h
+/home/shu/NewGame/MakeCaster.h
+MakeBerserker.h
+/home/shu/NewGame/MakeBerserker.h
 
 /home/shu/NewGame/MakeArcher.h
 iostream
