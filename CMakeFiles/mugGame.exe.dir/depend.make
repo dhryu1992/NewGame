@@ -10,11 +10,18 @@ CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeAccount.h
 CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeArcher.h
 CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeBerserker.h
 CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeCaster.h
+CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeMonster.h
 CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o: MakeSaber.h
 
 CMakeFiles/mugGame.exe.dir/MakeArcher.cpp.o: IntEnergy.h
 CMakeFiles/mugGame.exe.dir/MakeArcher.cpp.o: MakeArcher.cpp
 CMakeFiles/mugGame.exe.dir/MakeArcher.cpp.o: MakeArcher.h
+
+CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o: IntEnergy.h
+CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o: MakeBattleStory.cpp
+CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o: MakeBattleStory.h
+CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o: MakeMonster.h
+CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o: MakeSaber.h
 
 CMakeFiles/mugGame.exe.dir/MakeBerserker.cpp.o: IntEnergy.h
 CMakeFiles/mugGame.exe.dir/MakeBerserker.cpp.o: MakeBerserker.cpp
@@ -29,12 +36,14 @@ CMakeFiles/mugGame.exe.dir/MakeMonster.cpp.o: MakeMonster.cpp
 CMakeFiles/mugGame.exe.dir/MakeMonster.cpp.o: MakeMonster.h
 
 CMakeFiles/mugGame.exe.dir/MakeSaber.cpp.o: IntEnergy.h
+CMakeFiles/mugGame.exe.dir/MakeSaber.cpp.o: MakeMonster.h
 CMakeFiles/mugGame.exe.dir/MakeSaber.cpp.o: MakeSaber.cpp
 CMakeFiles/mugGame.exe.dir/MakeSaber.cpp.o: MakeSaber.h
 
 CMakeFiles/mugGame.exe.dir/main.cpp.o: IntEnergy.h
 CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeAccount.h
 CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeArcher.h
+CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeBattleStory.h
 CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeBerserker.h
 CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeCaster.h
 CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeMonster.h

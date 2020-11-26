@@ -7,7 +7,7 @@ using namespace std;
 class Berserker : public IntEnergy {
 	public:
 		Berserker();
-		~Berserker();
+		virtual ~Berserker();
 };
 
 #endif

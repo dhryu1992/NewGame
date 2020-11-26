@@ -1,28 +1,64 @@
+#include <cstring>
+#include <iostream>
+#include <string>
+#include "IntEnergy.h"
 #include "MakeSaber.h"
+#include "MakeArcher.h"
+#include "MakeCaster.h"
+#include "MakeBerserker.h"
+//#include "MakeBattle.h"
+#include "MakeAccount.h"
+#include "MakeMonster.h"
+#include "WeaponStatus.h"
 
-Saber::Saber() : IntEnergy::IntEnergy(200, 100, 50) {
-	cout << "You Select Saber!" << endl;
-} 
+using namespace std;
 
-Saber::~Saber() {
-	cout << "Saber Terminated!" << endl;
+enum SelectCharacter {
+    SABER = 1,
+    ARCHER,
+    CASTER, 
+    BERSERKER
+};
+
+enum SelectMotion {
+    HIT =1,
+    RUN,
+    SLEEP
+};
+
+int main() {
+	char Lim_Name[20] = "1234567891234567891";
+	//strlen(Lim_Name) is 6.
+	int My_Age = 0;
+	int NumSelectCharacter;
+	int SelectMotion;
+    string *My_Name = new string("My_Name");
+	cout << "Welcome to ShuLand!\n" << endl;
+	cout << "Enter your name: " << endl;
+	cin >> *My_Name;
+	while(My_Name -> length() >= strlen(Lim_Name)) {
+		cout <<"\nError! Enter one more time!" << endl;
+		cin >> *My_Name;
+	}
+
+	cout << "Enter your age: " << endl;
+	cin >> My_Age;
+    MakeAccount* account= new MakeAccount(My_Name, My_Age);
+    cout << "\nYour name is " << *My_Name << ", " << "Your age is " << My_Age << endl << endl;
+    delete My_Name;
+    //-------------Account Complete----------------//
+	cout << "Select your Character." << endl;
+	cout << "1. Saber\n2. Archer\n3. Caster\n4. Berserker\n" << endl;
+	cin >> NumSelectCharacter;
+    switch(NumSelectCharacter) {
+		case SABER : {
+            cout << "You Select Saber!" << endl;
+            return 1;
+        }
+            Saber *NewSaber = new Saber;
+            return NewSaber;
+    }
+    
 }
 
-Saber::ShowskillInfo_LV1() {
-    cout << "1. cutting\n2.stabbing\n3.ultimate\n" << endl;
-    cin >> SelectAttack;
-    switch(SelectAttack) {
-        case CUTTING : {
-            IntEnergy::m_mp = m_mp - 10;
-            makemonster.injured(1);
-        case STABBING : {
-            IntEnergy::m_mp = m_mp - 15;
-            makemonster.injured(3);
-        case ULTIMATE : {
-            IntEnergy::m_mp = m_mp - 20;
-            makemonster.injured(5);
-                }
-            }
-        }
-    }
-} 
+    

@@ -6,7 +6,7 @@
 #include "MakeArcher.h"
 #include "MakeCaster.h"
 #include "MakeBerserker.h"
-#include "MakeBattleStory.h"
+//#include "MakeBattle.h"
 #include "MakeAccount.h"
 #include "MakeMonster.h"
 #include "WeaponStatus.h"
@@ -20,11 +20,18 @@ enum SelectCharacter {
     BERSERKER
 };
 
+enum SelectMotion {
+    HIT =1,
+    RUN,
+    SLEEP
+};
+
 int main() {
 	char Lim_Name[20] = "1234567891234567891";
 	//strlen(Lim_Name) is 6.
 	int My_Age = 0;
 	int NumSelectCharacter;
+	int SelectMotion;
     string *My_Name = new string("My_Name");
 	cout << "Welcome to ShuLand!\n" << endl;
 	cout << "Enter your name: " << endl;
@@ -46,7 +53,7 @@ int main() {
     switch(NumSelectCharacter) {
 		case SABER : {
             cout << "You Select Saber!" << endl;
-            MakeBattleStory();
+            return 1;
             break;
         }
 

@@ -5,14 +5,12 @@
 using namespace std;
 
 class MakeMonster : public IntEnergy {
-	protected:
-		int m_Hp;
-		int m_Mp;
-		int m_Dx;
 	public:
 		MakeMonster();
-		~MakeMonster();
-        int injured(int);
+		virtual ~MakeMonster();
+        int injured(MakeMonster*, int);
+        int Hit(MakeMonster*);
 };
+    
 
 #endif

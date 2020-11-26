@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mugGame.exe.dir/IntEnergy.cpp.o"
   "CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o"
   "CMakeFiles/mugGame.exe.dir/MakeArcher.cpp.o"
+  "CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o"
   "CMakeFiles/mugGame.exe.dir/MakeBerserker.cpp.o"
   "CMakeFiles/mugGame.exe.dir/MakeCaster.cpp.o"
   "CMakeFiles/mugGame.exe.dir/MakeMonster.cpp.o"

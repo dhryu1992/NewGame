@@ -204,6 +204,33 @@ MakeArcher.cpp.s:
 	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakeArcher.cpp.s
 .PHONY : MakeArcher.cpp.s
 
+MakeBattleStory.o: MakeBattleStory.cpp.o
+
+.PHONY : MakeBattleStory.o
+
+# target to build an object file
+MakeBattleStory.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o
+.PHONY : MakeBattleStory.cpp.o
+
+MakeBattleStory.i: MakeBattleStory.cpp.i
+
+.PHONY : MakeBattleStory.i
+
+# target to preprocess a source file
+MakeBattleStory.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.i
+.PHONY : MakeBattleStory.cpp.i
+
+MakeBattleStory.s: MakeBattleStory.cpp.s
+
+.PHONY : MakeBattleStory.s
+
+# target to generate assembly for a file
+MakeBattleStory.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.s
+.PHONY : MakeBattleStory.cpp.s
+
 MakeBerserker.o: MakeBerserker.cpp.o
 
 .PHONY : MakeBerserker.o
@@ -357,6 +384,9 @@ help:
 	@echo "... MakeArcher.o"
 	@echo "... MakeArcher.i"
 	@echo "... MakeArcher.s"
+	@echo "... MakeBattleStory.o"
+	@echo "... MakeBattleStory.i"
+	@echo "... MakeBattleStory.s"
 	@echo "... MakeBerserker.o"
 	@echo "... MakeBerserker.i"
 	@echo "... MakeBerserker.s"

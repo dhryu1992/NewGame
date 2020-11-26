@@ -11,11 +11,18 @@ CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o
  /home/shu/NewGame/MakeArcher.h
  /home/shu/NewGame/MakeBerserker.h
  /home/shu/NewGame/MakeCaster.h
+ /home/shu/NewGame/MakeMonster.h
  /home/shu/NewGame/MakeSaber.h
 CMakeFiles/mugGame.exe.dir/MakeArcher.cpp.o
  /home/shu/NewGame/IntEnergy.h
  /home/shu/NewGame/MakeArcher.cpp
  /home/shu/NewGame/MakeArcher.h
+CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o
+ /home/shu/NewGame/IntEnergy.h
+ /home/shu/NewGame/MakeBattleStory.cpp
+ /home/shu/NewGame/MakeBattleStory.h
+ /home/shu/NewGame/MakeMonster.h
+ /home/shu/NewGame/MakeSaber.h
 CMakeFiles/mugGame.exe.dir/MakeBerserker.cpp.o
  /home/shu/NewGame/IntEnergy.h
  /home/shu/NewGame/MakeBerserker.cpp
@@ -30,12 +37,14 @@ CMakeFiles/mugGame.exe.dir/MakeMonster.cpp.o
  /home/shu/NewGame/MakeMonster.h
 CMakeFiles/mugGame.exe.dir/MakeSaber.cpp.o
  /home/shu/NewGame/IntEnergy.h
+ /home/shu/NewGame/MakeMonster.h
  /home/shu/NewGame/MakeSaber.cpp
  /home/shu/NewGame/MakeSaber.h
 CMakeFiles/mugGame.exe.dir/main.cpp.o
  /home/shu/NewGame/IntEnergy.h
  /home/shu/NewGame/MakeAccount.h
  /home/shu/NewGame/MakeArcher.h
+ /home/shu/NewGame/MakeBattleStory.h
  /home/shu/NewGame/MakeBerserker.h
  /home/shu/NewGame/MakeCaster.h
  /home/shu/NewGame/MakeMonster.h

@@ -2,20 +2,16 @@
 #define __SABER_H__
 #include <iostream>
 #include "IntEnergy.h"
+#include "MakeMonster.h"
 using namespace std;
-enum AttackSaber {
-    CUTTING = 1,
-    STABBING,
-    ULTIMATE
-};
 
 class Saber : public IntEnergy {
-	public:
-        int SelectAttack;
+    public:
+        int selectSkill;
 		Saber();
-        ~Saber();
-        //void ShowskillInfo_LV1();
-        //MakeMonster makemonster;
+        virtual ~Saber();
+        int Hit(Saber*);
+        int injured(Saber*, int);
 };
 
 #endif

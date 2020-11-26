@@ -8,7 +8,7 @@ using namespace std;
 class Archer : public IntEnergy {
 	public:
 		Archer();
-		~Archer();
+		virtual ~Archer();
 };
 
 #endif

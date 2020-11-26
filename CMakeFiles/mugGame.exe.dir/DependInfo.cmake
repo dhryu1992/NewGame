@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/shu/NewGame/IntEnergy.cpp" "/home/shu/NewGame/CMakeFiles/mugGame.exe.dir/IntEnergy.cpp.o"
   "/home/shu/NewGame/MakeAccount.cpp" "/home/shu/NewGame/CMakeFiles/mugGame.exe.dir/MakeAccount.cpp.o"
   "/home/shu/NewGame/MakeArcher.cpp" "/home/shu/NewGame/CMakeFiles/mugGame.exe.dir/MakeArcher.cpp.o"
+  "/home/shu/NewGame/MakeBattleStory.cpp" "/home/shu/NewGame/CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o"
   "/home/shu/NewGame/MakeBerserker.cpp" "/home/shu/NewGame/CMakeFiles/mugGame.exe.dir/MakeBerserker.cpp.o"
   "/home/shu/NewGame/MakeCaster.cpp" "/home/shu/NewGame/CMakeFiles/mugGame.exe.dir/MakeCaster.cpp.o"
   "/home/shu/NewGame/MakeMonster.cpp" "/home/shu/NewGame/CMakeFiles/mugGame.exe.dir/MakeMonster.cpp.o"
