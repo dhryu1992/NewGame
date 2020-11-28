@@ -6,10 +6,10 @@ using namespace std;
 
 class MakeMonster : public IntEnergy {
 	public:
-		MakeMonster();
+		MakeMonster(int, int, int);
 		virtual ~MakeMonster();
         int injured(MakeMonster*, int);
-        int Hit(MakeMonster*);
+        int Hit(MakeMonster*, int);
 };
     
 

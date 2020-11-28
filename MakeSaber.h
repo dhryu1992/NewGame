@@ -7,11 +7,14 @@ using namespace std;
 
 class Saber : public IntEnergy {
     public:
-        int selectSkill;
 		Saber();
         virtual ~Saber();
+        int selectSkill;
         int Hit(Saber*);
         int injured(Saber*, int);
+        int Ultimate(Saber*);
 };
+
+//Saber* make();
 
 #endif

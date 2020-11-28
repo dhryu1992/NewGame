@@ -1,1 +1,1 @@
-ADD_EXECUTABLE(mugGame.exe main.cpp MakeAccount.cpp MakeSaber.cpp MakeArcher.cpp MakeCaster.cpp MakeBerserker.cpp IntEnergy.cpp MakeMonster.cpp MakeBattleStory.cpp)
+ADD_EXECUTABLE(mugGame.exe main.cpp MakeAccount.cpp MakeSaber.cpp MakeArcher.cpp MakeCaster.cpp MakeBerserker.cpp IntEnergy.cpp MakeMonster.cpp SaberBattle.cpp ArcherBattle.cpp CasterBattle.cpp BerserkerBattle.cpp SaberSkill.cpp ArcherSkill.cpp CasterSkill.cpp BerserkerSkill.cpp WeaponStatus.cpp MakePotion.cpp HpPotion.cpp MpPotion.cpp)

@@ -1,11 +1,11 @@
 #include "MakeMonster.h"
 
-MakeMonster::MakeMonster() : IntEnergy(50, 50, 50) {
+MakeMonster::MakeMonster(int hp, int mp, int dx) : IntEnergy(hp, mp, dx) {
 	cout << "Monster(in GYM) Appear!\n" << endl;
 }
 
 MakeMonster::~MakeMonster() {
-	cout << "Monster Dead!\n" << endl;
+	cout << "Monster Dead!" << endl;
 }
 
 int MakeMonster::injured(MakeMonster* monster, int damage) {
@@ -14,9 +14,9 @@ int MakeMonster::injured(MakeMonster* monster, int damage) {
     return monster->m_Hp;
 }
 
-int MakeMonster::Hit(MakeMonster* monster) {
+int MakeMonster::Hit(MakeMonster* monster, int minusMp) {
         cout << "Monster hit You!" << endl;
-        monster->m_Mp -= 2;
+        monster->m_Mp -= minusMp;
         cout << "monster's Mp left: " << monster->m_Mp << endl;
         return monster->m_Mp;
 }

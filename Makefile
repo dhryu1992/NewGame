@@ -123,6 +123,195 @@ mugGame.exe/fast:
 	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/build
 .PHONY : mugGame.exe/fast
 
+ArcherBattle.o: ArcherBattle.cpp.o
+
+.PHONY : ArcherBattle.o
+
+# target to build an object file
+ArcherBattle.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.o
+.PHONY : ArcherBattle.cpp.o
+
+ArcherBattle.i: ArcherBattle.cpp.i
+
+.PHONY : ArcherBattle.i
+
+# target to preprocess a source file
+ArcherBattle.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.i
+.PHONY : ArcherBattle.cpp.i
+
+ArcherBattle.s: ArcherBattle.cpp.s
+
+.PHONY : ArcherBattle.s
+
+# target to generate assembly for a file
+ArcherBattle.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.s
+.PHONY : ArcherBattle.cpp.s
+
+ArcherSkill.o: ArcherSkill.cpp.o
+
+.PHONY : ArcherSkill.o
+
+# target to build an object file
+ArcherSkill.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.o
+.PHONY : ArcherSkill.cpp.o
+
+ArcherSkill.i: ArcherSkill.cpp.i
+
+.PHONY : ArcherSkill.i
+
+# target to preprocess a source file
+ArcherSkill.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.i
+.PHONY : ArcherSkill.cpp.i
+
+ArcherSkill.s: ArcherSkill.cpp.s
+
+.PHONY : ArcherSkill.s
+
+# target to generate assembly for a file
+ArcherSkill.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.s
+.PHONY : ArcherSkill.cpp.s
+
+BerserkerBattle.o: BerserkerBattle.cpp.o
+
+.PHONY : BerserkerBattle.o
+
+# target to build an object file
+BerserkerBattle.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.o
+.PHONY : BerserkerBattle.cpp.o
+
+BerserkerBattle.i: BerserkerBattle.cpp.i
+
+.PHONY : BerserkerBattle.i
+
+# target to preprocess a source file
+BerserkerBattle.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.i
+.PHONY : BerserkerBattle.cpp.i
+
+BerserkerBattle.s: BerserkerBattle.cpp.s
+
+.PHONY : BerserkerBattle.s
+
+# target to generate assembly for a file
+BerserkerBattle.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.s
+.PHONY : BerserkerBattle.cpp.s
+
+BerserkerSkill.o: BerserkerSkill.cpp.o
+
+.PHONY : BerserkerSkill.o
+
+# target to build an object file
+BerserkerSkill.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.o
+.PHONY : BerserkerSkill.cpp.o
+
+BerserkerSkill.i: BerserkerSkill.cpp.i
+
+.PHONY : BerserkerSkill.i
+
+# target to preprocess a source file
+BerserkerSkill.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.i
+.PHONY : BerserkerSkill.cpp.i
+
+BerserkerSkill.s: BerserkerSkill.cpp.s
+
+.PHONY : BerserkerSkill.s
+
+# target to generate assembly for a file
+BerserkerSkill.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.s
+.PHONY : BerserkerSkill.cpp.s
+
+CasterBattle.o: CasterBattle.cpp.o
+
+.PHONY : CasterBattle.o
+
+# target to build an object file
+CasterBattle.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.o
+.PHONY : CasterBattle.cpp.o
+
+CasterBattle.i: CasterBattle.cpp.i
+
+.PHONY : CasterBattle.i
+
+# target to preprocess a source file
+CasterBattle.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.i
+.PHONY : CasterBattle.cpp.i
+
+CasterBattle.s: CasterBattle.cpp.s
+
+.PHONY : CasterBattle.s
+
+# target to generate assembly for a file
+CasterBattle.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.s
+.PHONY : CasterBattle.cpp.s
+
+CasterSkill.o: CasterSkill.cpp.o
+
+.PHONY : CasterSkill.o
+
+# target to build an object file
+CasterSkill.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.o
+.PHONY : CasterSkill.cpp.o
+
+CasterSkill.i: CasterSkill.cpp.i
+
+.PHONY : CasterSkill.i
+
+# target to preprocess a source file
+CasterSkill.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.i
+.PHONY : CasterSkill.cpp.i
+
+CasterSkill.s: CasterSkill.cpp.s
+
+.PHONY : CasterSkill.s
+
+# target to generate assembly for a file
+CasterSkill.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.s
+.PHONY : CasterSkill.cpp.s
+
+HpPotion.o: HpPotion.cpp.o
+
+.PHONY : HpPotion.o
+
+# target to build an object file
+HpPotion.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/HpPotion.cpp.o
+.PHONY : HpPotion.cpp.o
+
+HpPotion.i: HpPotion.cpp.i
+
+.PHONY : HpPotion.i
+
+# target to preprocess a source file
+HpPotion.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/HpPotion.cpp.i
+.PHONY : HpPotion.cpp.i
+
+HpPotion.s: HpPotion.cpp.s
+
+.PHONY : HpPotion.s
+
+# target to generate assembly for a file
+HpPotion.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/HpPotion.cpp.s
+.PHONY : HpPotion.cpp.s
+
 IntEnergy.o: IntEnergy.cpp.o
 
 .PHONY : IntEnergy.o
@@ -203,33 +392,6 @@ MakeArcher.s: MakeArcher.cpp.s
 MakeArcher.cpp.s:
 	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakeArcher.cpp.s
 .PHONY : MakeArcher.cpp.s
-
-MakeBattleStory.o: MakeBattleStory.cpp.o
-
-.PHONY : MakeBattleStory.o
-
-# target to build an object file
-MakeBattleStory.cpp.o:
-	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o
-.PHONY : MakeBattleStory.cpp.o
-
-MakeBattleStory.i: MakeBattleStory.cpp.i
-
-.PHONY : MakeBattleStory.i
-
-# target to preprocess a source file
-MakeBattleStory.cpp.i:
-	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.i
-.PHONY : MakeBattleStory.cpp.i
-
-MakeBattleStory.s: MakeBattleStory.cpp.s
-
-.PHONY : MakeBattleStory.s
-
-# target to generate assembly for a file
-MakeBattleStory.cpp.s:
-	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.s
-.PHONY : MakeBattleStory.cpp.s
 
 MakeBerserker.o: MakeBerserker.cpp.o
 
@@ -312,6 +474,33 @@ MakeMonster.cpp.s:
 	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakeMonster.cpp.s
 .PHONY : MakeMonster.cpp.s
 
+MakePotion.o: MakePotion.cpp.o
+
+.PHONY : MakePotion.o
+
+# target to build an object file
+MakePotion.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakePotion.cpp.o
+.PHONY : MakePotion.cpp.o
+
+MakePotion.i: MakePotion.cpp.i
+
+.PHONY : MakePotion.i
+
+# target to preprocess a source file
+MakePotion.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakePotion.cpp.i
+.PHONY : MakePotion.cpp.i
+
+MakePotion.s: MakePotion.cpp.s
+
+.PHONY : MakePotion.s
+
+# target to generate assembly for a file
+MakePotion.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakePotion.cpp.s
+.PHONY : MakePotion.cpp.s
+
 MakeSaber.o: MakeSaber.cpp.o
 
 .PHONY : MakeSaber.o
@@ -338,6 +527,114 @@ MakeSaber.s: MakeSaber.cpp.s
 MakeSaber.cpp.s:
 	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MakeSaber.cpp.s
 .PHONY : MakeSaber.cpp.s
+
+MpPotion.o: MpPotion.cpp.o
+
+.PHONY : MpPotion.o
+
+# target to build an object file
+MpPotion.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MpPotion.cpp.o
+.PHONY : MpPotion.cpp.o
+
+MpPotion.i: MpPotion.cpp.i
+
+.PHONY : MpPotion.i
+
+# target to preprocess a source file
+MpPotion.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MpPotion.cpp.i
+.PHONY : MpPotion.cpp.i
+
+MpPotion.s: MpPotion.cpp.s
+
+.PHONY : MpPotion.s
+
+# target to generate assembly for a file
+MpPotion.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/MpPotion.cpp.s
+.PHONY : MpPotion.cpp.s
+
+SaberBattle.o: SaberBattle.cpp.o
+
+.PHONY : SaberBattle.o
+
+# target to build an object file
+SaberBattle.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.o
+.PHONY : SaberBattle.cpp.o
+
+SaberBattle.i: SaberBattle.cpp.i
+
+.PHONY : SaberBattle.i
+
+# target to preprocess a source file
+SaberBattle.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.i
+.PHONY : SaberBattle.cpp.i
+
+SaberBattle.s: SaberBattle.cpp.s
+
+.PHONY : SaberBattle.s
+
+# target to generate assembly for a file
+SaberBattle.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.s
+.PHONY : SaberBattle.cpp.s
+
+SaberSkill.o: SaberSkill.cpp.o
+
+.PHONY : SaberSkill.o
+
+# target to build an object file
+SaberSkill.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.o
+.PHONY : SaberSkill.cpp.o
+
+SaberSkill.i: SaberSkill.cpp.i
+
+.PHONY : SaberSkill.i
+
+# target to preprocess a source file
+SaberSkill.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.i
+.PHONY : SaberSkill.cpp.i
+
+SaberSkill.s: SaberSkill.cpp.s
+
+.PHONY : SaberSkill.s
+
+# target to generate assembly for a file
+SaberSkill.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.s
+.PHONY : SaberSkill.cpp.s
+
+WeaponStatus.o: WeaponStatus.cpp.o
+
+.PHONY : WeaponStatus.o
+
+# target to build an object file
+WeaponStatus.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.o
+.PHONY : WeaponStatus.cpp.o
+
+WeaponStatus.i: WeaponStatus.cpp.i
+
+.PHONY : WeaponStatus.i
+
+# target to preprocess a source file
+WeaponStatus.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.i
+.PHONY : WeaponStatus.cpp.i
+
+WeaponStatus.s: WeaponStatus.cpp.s
+
+.PHONY : WeaponStatus.s
+
+# target to generate assembly for a file
+WeaponStatus.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.s
+.PHONY : WeaponStatus.cpp.s
 
 main.o: main.cpp.o
 
@@ -375,6 +672,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mugGame.exe"
+	@echo "... ArcherBattle.o"
+	@echo "... ArcherBattle.i"
+	@echo "... ArcherBattle.s"
+	@echo "... ArcherSkill.o"
+	@echo "... ArcherSkill.i"
+	@echo "... ArcherSkill.s"
+	@echo "... BerserkerBattle.o"
+	@echo "... BerserkerBattle.i"
+	@echo "... BerserkerBattle.s"
+	@echo "... BerserkerSkill.o"
+	@echo "... BerserkerSkill.i"
+	@echo "... BerserkerSkill.s"
+	@echo "... CasterBattle.o"
+	@echo "... CasterBattle.i"
+	@echo "... CasterBattle.s"
+	@echo "... CasterSkill.o"
+	@echo "... CasterSkill.i"
+	@echo "... CasterSkill.s"
+	@echo "... HpPotion.o"
+	@echo "... HpPotion.i"
+	@echo "... HpPotion.s"
 	@echo "... IntEnergy.o"
 	@echo "... IntEnergy.i"
 	@echo "... IntEnergy.s"
@@ -384,9 +702,6 @@ help:
 	@echo "... MakeArcher.o"
 	@echo "... MakeArcher.i"
 	@echo "... MakeArcher.s"
-	@echo "... MakeBattleStory.o"
-	@echo "... MakeBattleStory.i"
-	@echo "... MakeBattleStory.s"
 	@echo "... MakeBerserker.o"
 	@echo "... MakeBerserker.i"
 	@echo "... MakeBerserker.s"
@@ -396,9 +711,24 @@ help:
 	@echo "... MakeMonster.o"
 	@echo "... MakeMonster.i"
 	@echo "... MakeMonster.s"
+	@echo "... MakePotion.o"
+	@echo "... MakePotion.i"
+	@echo "... MakePotion.s"
 	@echo "... MakeSaber.o"
 	@echo "... MakeSaber.i"
 	@echo "... MakeSaber.s"
+	@echo "... MpPotion.o"
+	@echo "... MpPotion.i"
+	@echo "... MpPotion.s"
+	@echo "... SaberBattle.o"
+	@echo "... SaberBattle.i"
+	@echo "... SaberBattle.s"
+	@echo "... SaberSkill.o"
+	@echo "... SaberSkill.i"
+	@echo "... SaberSkill.s"
+	@echo "... WeaponStatus.o"
+	@echo "... WeaponStatus.i"
+	@echo "... WeaponStatus.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

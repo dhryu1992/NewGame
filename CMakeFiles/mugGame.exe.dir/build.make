@@ -161,18 +161,161 @@ CMakeFiles/mugGame.exe.dir/MakeMonster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/MakeMonster.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/MakeMonster.cpp -o CMakeFiles/mugGame.exe.dir/MakeMonster.cpp.s
 
-CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
-CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o: MakeBattleStory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o -c /home/shu/NewGame/MakeBattleStory.cpp
+CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.o: SaberBattle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.o -c /home/shu/NewGame/SaberBattle.cpp
 
-CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/MakeBattleStory.cpp > CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.i
+CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/SaberBattle.cpp > CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.i
 
-CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/MakeBattleStory.cpp -o CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.s
+CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/SaberBattle.cpp -o CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.s
+
+CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.o: ArcherBattle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.o -c /home/shu/NewGame/ArcherBattle.cpp
+
+CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/ArcherBattle.cpp > CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.i
+
+CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/ArcherBattle.cpp -o CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.s
+
+CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.o: CasterBattle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.o -c /home/shu/NewGame/CasterBattle.cpp
+
+CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/CasterBattle.cpp > CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.i
+
+CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/CasterBattle.cpp -o CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.s
+
+CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.o: BerserkerBattle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.o -c /home/shu/NewGame/BerserkerBattle.cpp
+
+CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/BerserkerBattle.cpp > CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.i
+
+CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/BerserkerBattle.cpp -o CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.s
+
+CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.o: SaberSkill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.o -c /home/shu/NewGame/SaberSkill.cpp
+
+CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/SaberSkill.cpp > CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.i
+
+CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/SaberSkill.cpp -o CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.s
+
+CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.o: ArcherSkill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.o -c /home/shu/NewGame/ArcherSkill.cpp
+
+CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/ArcherSkill.cpp > CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.i
+
+CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/ArcherSkill.cpp -o CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.s
+
+CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.o: CasterSkill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.o -c /home/shu/NewGame/CasterSkill.cpp
+
+CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/CasterSkill.cpp > CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.i
+
+CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/CasterSkill.cpp -o CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.s
+
+CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.o: BerserkerSkill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.o -c /home/shu/NewGame/BerserkerSkill.cpp
+
+CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/BerserkerSkill.cpp > CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.i
+
+CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/BerserkerSkill.cpp -o CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.s
+
+CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.o: WeaponStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.o -c /home/shu/NewGame/WeaponStatus.cpp
+
+CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/WeaponStatus.cpp > CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.i
+
+CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/WeaponStatus.cpp -o CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.s
+
+CMakeFiles/mugGame.exe.dir/MakePotion.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/MakePotion.cpp.o: MakePotion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/mugGame.exe.dir/MakePotion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/MakePotion.cpp.o -c /home/shu/NewGame/MakePotion.cpp
+
+CMakeFiles/mugGame.exe.dir/MakePotion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/MakePotion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/MakePotion.cpp > CMakeFiles/mugGame.exe.dir/MakePotion.cpp.i
+
+CMakeFiles/mugGame.exe.dir/MakePotion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/MakePotion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/MakePotion.cpp -o CMakeFiles/mugGame.exe.dir/MakePotion.cpp.s
+
+CMakeFiles/mugGame.exe.dir/HpPotion.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/HpPotion.cpp.o: HpPotion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/mugGame.exe.dir/HpPotion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/HpPotion.cpp.o -c /home/shu/NewGame/HpPotion.cpp
+
+CMakeFiles/mugGame.exe.dir/HpPotion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/HpPotion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/HpPotion.cpp > CMakeFiles/mugGame.exe.dir/HpPotion.cpp.i
+
+CMakeFiles/mugGame.exe.dir/HpPotion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/HpPotion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/HpPotion.cpp -o CMakeFiles/mugGame.exe.dir/HpPotion.cpp.s
+
+CMakeFiles/mugGame.exe.dir/MpPotion.cpp.o: CMakeFiles/mugGame.exe.dir/flags.make
+CMakeFiles/mugGame.exe.dir/MpPotion.cpp.o: MpPotion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/mugGame.exe.dir/MpPotion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mugGame.exe.dir/MpPotion.cpp.o -c /home/shu/NewGame/MpPotion.cpp
+
+CMakeFiles/mugGame.exe.dir/MpPotion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mugGame.exe.dir/MpPotion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shu/NewGame/MpPotion.cpp > CMakeFiles/mugGame.exe.dir/MpPotion.cpp.i
+
+CMakeFiles/mugGame.exe.dir/MpPotion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mugGame.exe.dir/MpPotion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shu/NewGame/MpPotion.cpp -o CMakeFiles/mugGame.exe.dir/MpPotion.cpp.s
 
 # Object files for target mugGame.exe
 mugGame_exe_OBJECTS = \
@@ -184,7 +327,18 @@ mugGame_exe_OBJECTS = \
 "CMakeFiles/mugGame.exe.dir/MakeBerserker.cpp.o" \
 "CMakeFiles/mugGame.exe.dir/IntEnergy.cpp.o" \
 "CMakeFiles/mugGame.exe.dir/MakeMonster.cpp.o" \
-"CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o"
+"CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.o" \
+"CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.o" \
+"CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.o" \
+"CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.o" \
+"CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.o" \
+"CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.o" \
+"CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.o" \
+"CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.o" \
+"CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.o" \
+"CMakeFiles/mugGame.exe.dir/MakePotion.cpp.o" \
+"CMakeFiles/mugGame.exe.dir/HpPotion.cpp.o" \
+"CMakeFiles/mugGame.exe.dir/MpPotion.cpp.o"
 
 # External object files for target mugGame.exe
 mugGame_exe_EXTERNAL_OBJECTS =
@@ -197,10 +351,21 @@ mugGame.exe: CMakeFiles/mugGame.exe.dir/MakeCaster.cpp.o
 mugGame.exe: CMakeFiles/mugGame.exe.dir/MakeBerserker.cpp.o
 mugGame.exe: CMakeFiles/mugGame.exe.dir/IntEnergy.cpp.o
 mugGame.exe: CMakeFiles/mugGame.exe.dir/MakeMonster.cpp.o
-mugGame.exe: CMakeFiles/mugGame.exe.dir/MakeBattleStory.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/SaberBattle.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/CasterBattle.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/CasterSkill.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/BerserkerSkill.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/MakePotion.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/HpPotion.cpp.o
+mugGame.exe: CMakeFiles/mugGame.exe.dir/MpPotion.cpp.o
 mugGame.exe: CMakeFiles/mugGame.exe.dir/build.make
 mugGame.exe: CMakeFiles/mugGame.exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable mugGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shu/NewGame/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable mugGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mugGame.exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

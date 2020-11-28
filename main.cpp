@@ -1,12 +1,15 @@
 #include <cstring>
 #include <iostream>
 #include <string>
+#include "ArcherBattle.h"
+#include "CasterBattle.h"
+#include "BerserkerBattle.h"
 #include "IntEnergy.h"
 #include "MakeSaber.h"
 #include "MakeArcher.h"
 #include "MakeCaster.h"
 #include "MakeBerserker.h"
-#include "MakeBattleStory.h"
+#include "SaberBattle.h"
 #include "MakeAccount.h"
 #include "MakeMonster.h"
 #include "WeaponStatus.h"
@@ -46,19 +49,28 @@ int main() {
     switch(NumSelectCharacter) {
 		case SABER : {
             cout << "You Select Saber!" << endl;
-            MakeBattleStory();
+            SaberBattle();
             break;
-        }
-
+        } 
         case ARCHER : {
             cout << "You Select Archer!" << endl;
-            return 2;
+            ArcherBattle();
             break;
         }
-            
-    }
-    
-    
+        case CASTER : {
+            cout << "You Select Caster!" << endl;
+            CasterBattle();
+            break;
+        }
+        case BERSERKER : {
+            cout << "You Select BERSERKER!" << endl;
+            BerserkerBattle();
+            break;
+        }
+    }   
+    cout << "Let's move outside!" << endl;
 }
+
+
 
     

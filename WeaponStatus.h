@@ -4,12 +4,14 @@
 using namespace std;
 
 class WeaponStatus {
-     private:
+     protected:
          int m_power;
      public:
          WeaponStatus(int);
          ~WeaponStatus();
-         void Use(const int);
+         virtual void BasicSkill();
+         virtual void UltimateSkill();
+         //void Use(const int);
 };
 
 #endif
