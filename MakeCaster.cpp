@@ -1,7 +1,7 @@
 #include "MakeCaster.h"
 
 Caster::Caster() : IntEnergy::IntEnergy(100, 200, 50) {
-	cout << "You Select Caster!" << endl;
+	cout << "You can use Caster class" << endl;
 } 
 
 Caster::~Caster() {

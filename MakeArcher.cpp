@@ -1,7 +1,7 @@
 #include "MakeArcher.h"
 
 Archer::Archer() : IntEnergy::IntEnergy(150, 150, 200) {
-	cout << "You Select Archer!" << endl;
+	cout << "You can use Archer class" << endl;
 } 
 
 Archer::~Archer() {

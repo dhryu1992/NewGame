@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mugGame.exe.dir/AddInventory.cpp.o"
   "CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.o"
   "CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.o"
   "CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.o"

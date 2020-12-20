@@ -6,10 +6,7 @@
 using namespace std;
 
 class HpPotion : public MakePotion {
-    protected: 
-        int m_RecoverHp;
-        int m_CountHpPotion;
-    public:
+public:
         HpPotion(int, int);
         virtual ~HpPotion();
         void Use(Saber*, int, int);

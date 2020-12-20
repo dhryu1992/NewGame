@@ -1,7 +1,7 @@
 #include "MpPotion.h"
 
 MpPotion::MpPotion(int quantity, int count) : MakePotion(quantity, count) {
-    cout << "You got " << count << " Mp Potion(s), they will recover you by " << quantity << ". " << endl;  
+    //cout << "You got " << count << " Mp Potion(s), they will recover you by " << quantity << ". " << endl;  
 };
 
 MpPotion::~MpPotion() {

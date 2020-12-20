@@ -1,7 +1,7 @@
 #include "MakeSaber.h"
 
 Saber::Saber() : IntEnergy::IntEnergy(200, 100, 50) {
-	
+    cout << "You can use Saber class" << endl;
 } 
 
 Saber::~Saber() {

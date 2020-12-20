@@ -12,7 +12,6 @@ class MakePotion {
     protected:
         int m_Quantity;
         int m_CountPotion;
-
     public:
         MakePotion(int, int);
         virtual ~MakePotion();

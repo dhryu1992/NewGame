@@ -123,6 +123,33 @@ mugGame.exe/fast:
 	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/build
 .PHONY : mugGame.exe/fast
 
+AddInventory.o: AddInventory.cpp.o
+
+.PHONY : AddInventory.o
+
+# target to build an object file
+AddInventory.cpp.o:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/AddInventory.cpp.o
+.PHONY : AddInventory.cpp.o
+
+AddInventory.i: AddInventory.cpp.i
+
+.PHONY : AddInventory.i
+
+# target to preprocess a source file
+AddInventory.cpp.i:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/AddInventory.cpp.i
+.PHONY : AddInventory.cpp.i
+
+AddInventory.s: AddInventory.cpp.s
+
+.PHONY : AddInventory.s
+
+# target to generate assembly for a file
+AddInventory.cpp.s:
+	$(MAKE) -f CMakeFiles/mugGame.exe.dir/build.make CMakeFiles/mugGame.exe.dir/AddInventory.cpp.s
+.PHONY : AddInventory.cpp.s
+
 ArcherBattle.o: ArcherBattle.cpp.o
 
 .PHONY : ArcherBattle.o
@@ -672,6 +699,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mugGame.exe"
+	@echo "... AddInventory.o"
+	@echo "... AddInventory.i"
+	@echo "... AddInventory.s"
 	@echo "... ArcherBattle.o"
 	@echo "... ArcherBattle.i"
 	@echo "... ArcherBattle.s"

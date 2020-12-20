@@ -1,7 +1,7 @@
 #include "MakePotion.h"
 
 MakePotion::MakePotion(int quantity, int count) : m_Quantity(quantity), m_CountPotion(count) {
-    cout << "You got the Potions" << endl;
+    //cout << "You got the Potions" << endl;
 };
 
 MakePotion::~MakePotion() {

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/shu/NewGame/AddInventory.cpp" "/home/shu/NewGame/CMakeFiles/mugGame.exe.dir/AddInventory.cpp.o"
   "/home/shu/NewGame/ArcherBattle.cpp" "/home/shu/NewGame/CMakeFiles/mugGame.exe.dir/ArcherBattle.cpp.o"
   "/home/shu/NewGame/ArcherSkill.cpp" "/home/shu/NewGame/CMakeFiles/mugGame.exe.dir/ArcherSkill.cpp.o"
   "/home/shu/NewGame/BerserkerBattle.cpp" "/home/shu/NewGame/CMakeFiles/mugGame.exe.dir/BerserkerBattle.cpp.o"

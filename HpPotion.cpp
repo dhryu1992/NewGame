@@ -1,7 +1,7 @@
 #include "HpPotion.h"
 
 HpPotion::HpPotion(int quantity, int count) : MakePotion(quantity, count) {
-    cout << "You got " << count << " Hp Potion(s), they will recover you by " << quantity << ". " << endl;  
+    //cout << "You got " << count << " Hp Potion(s), they will recover you by " << quantity << ". " << endl;  
 };
 
 HpPotion::~HpPotion() {

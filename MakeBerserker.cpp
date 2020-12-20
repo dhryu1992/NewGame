@@ -1,7 +1,7 @@
 #include "MakeBerserker.h"
 
 Berserker::Berserker() : IntEnergy::IntEnergy(300, 200, 150) {
-	cout << "You Selected Berserker!" << endl;
+	cout << "You can use Berserker class" << endl;
 }; 
 
 Berserker::~Berserker() {
