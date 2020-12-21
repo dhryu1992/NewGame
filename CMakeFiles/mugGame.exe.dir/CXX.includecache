@@ -211,6 +211,12 @@ iostream
 -
 string
 -
+map
+-
+vector
+-
+unistd.h
+-
 ArcherBattle.h
 /home/shu/NewGame/ArcherBattle.h
 CasterBattle.h

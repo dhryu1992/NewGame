@@ -9,7 +9,11 @@ Inventory::~Inventory() {
 }
 
 void Inventory::AddHpPotion(HpPotion* hp_potion) {
-    
+
+}
+
+void Inventory::AddMpPotion(MpPotion* mp_potion) {
+
 }
 
 void Inventory::ShowInventoryInfo() {

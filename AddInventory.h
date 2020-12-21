@@ -8,6 +8,7 @@ using namespace std;
 
 class Inventory {
 private:
+    int hp_potion[3];
     int hppotion_50;
     int hppotion_150;
     int hppotion_250;
@@ -18,6 +19,7 @@ public:
     Inventory();
     virtual ~Inventory();
     void AddHpPotion(HpPotion*);
+    void AddMpPotion(MpPotion*);
     void ShowInventoryInfo();
 };
 
