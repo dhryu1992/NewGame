@@ -6,3 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/home/shu/NewGame/IntEnergy.h
+iostream
+-
+
+/home/shu/NewGame/MakeMonster.cpp
+MakeMonster.h
+/home/shu/NewGame/MakeMonster.h
+
+/home/shu/NewGame/MakeMonster.h
+iostream
+-
+IntEnergy.h
+/home/shu/NewGame/IntEnergy.h
+
+/home/shu/NewGame/MakeSaber.cpp
+MakeSaber.h
+/home/shu/NewGame/MakeSaber.h
+
+/home/shu/NewGame/MakeSaber.h
+iostream
+-
+IntEnergy.h
+/home/shu/NewGame/IntEnergy.h
+MakeMonster.h
+/home/shu/NewGame/MakeMonster.h
+

@@ -323,10 +323,9 @@ int main() {
             default:
                 break;
                     }
-            case 3:
-                break;
-            
         }
+            case 3:
+                break;            
     
     }
     
@@ -456,34 +455,97 @@ int main() {
     }*/
 
     
-    
+    cout << endl << endl;
     cout << "If you defeat the monster, You can earn some money." << endl;
     MakeMonster *level1_monster = new MakeMonster(1000, 2000, 500);
     cout << "saber's decision" << endl;
 
     saber_skill Sk;
-    Sk.saberMap.insert(pair<char*, int>("Shield Wall", 30));
+    Sk.saberMap.insert(pair<char*, int>("Shield Wall", 120));
 
     archer_skill Ak;
-    Ak.archerMap.insert(pair<char*, int>("Speed Arrow", 30));
+    Ak.archerMap.insert(pair<char*, int>("Speed Arrow", 110));
 
     caster_skill Ck;
-    Ck.casterMap.insert(pair<char*, int>("Fire Ball", 30));
+    Ck.casterMap.insert(pair<char*, int>("Fire Ball", 130));
 
     berserker_skill Bk;
-    Bk.berserkerMap.insert(pair<char*, int>("Hammer Down", 30));
+    Bk.berserkerMap.insert(pair<char*, int>("Hammer Down", 140));
     
-    if(saber->m_Dx > level1_monster->m_Dx || archer->m_Dx > level1_monster->m_Dx || caster->m_Dx > level1_monster->m_Dx || berserker->m_Dx > level1_monster->m_Dx) {
     cout << "Choose the action" << endl;
     int Decision;
     cout << "Select action.\n1. Attack 2. run" << endl;
     cin >> Decision;
     if(Decision == 1) {
-        cout << "select the skill" << endl;
-        
+        while(saber->m_Hp > 0 || archer 
+    if(saber->m_Dx > level1_monster->m_Dx || archer->m_Dx > level1_monster->m_Dx || caster->m_Dx > level1_monster->m_Dx || berserker->m_Dx > level1_monster->m_Dx) {
+        cout << "select the skill" << endl << endl;
+        cout << "select Saber's skill" << endl;
+        cout << "1. attack 2. Shield Wall" << endl;
+        int saberskill;
+        if(saberskill == 1) {
+            saber->Hit(saber);
+            level1_monster->injured(level1_monster, 30);
+        }else if(saberskill == 2) {
+            saber->Ultimate(saber);
+            level1_monster->injured(level1_monster, Sk.saberMap.find("Shield Wall")->second);
         }else {
-            cout << "You ran away!" << endl;
+            cout << "You have wrong answer. one more time" << endl;
+            cin >> saberskill;
         }
+
+        cout << endl;
+        cout << "select archer's skill" << endl;
+        cout << "1. attack 2. Speed Arrow" << endl;
+        int archerskill;
+        if(archerskill == 1) {
+            archer->Hit(archer);
+            level1_monster->injured(level1_monster, 30);
+        }else if(archerskill == 2) {
+            archer->Ultimate(archer);
+            level1_monster->injured(level1_monster, Ak.archerMap.find("Speed Arrow")->second);
+        }else {
+            cout << "You have wrong answer. one more time" << endl;
+            cin >> archerskill;
+        }
+        
+        cout << endl;
+        cout << "select caster's skill" << endl;
+        cout << "1. attack 2. Fire Ball" << endl;
+        int casterskill;
+        if(casterskill == 1) {
+            caster->Hit(caster);
+            level1_monster->injured(level1_monster, 30);
+        }else if(casterskill == 2) {
+            caster->Ultimate(caster);
+            level1_monster->injured(level1_monster, Ck.casterMap.find("Fire Ball")->second);
+        }else {
+            cout << "You have wrong answer. one more time" << endl;
+            cin >> casterskill;
+        }
+
+        cout << endl;
+        cout << "select berserker's skill" << endl;
+        cout << "1. attack 2. Hammer Down" << endl;
+        int berserkerskill;
+        if(berserkerskill == 1) {
+            berserker->Hit(berserker);
+            level1_monster->injured(level1_monster, 30);
+        }else if(berserkerskill == 2) {
+            berserker->Ultimate(berserker);
+            level1_monster->injured(level1_monster, Bk.berserkerMap.find("Hammer Down")->second);
+        }else {
+            cout << "You have wrong answer. one more time" << endl;
+            cin >> berserkerskill;
+        }
+
+        }else if(Decision == 2) {
+            cout << "You ran away!" << endl;
+        }else {
+            cout << "You have wrong answer. one more time " << endl;
+            cin >> Decision;
+        }
+
     }else {
         cout << "Monster Hit you!" << endl;
         saber->injured(saber, 30);
