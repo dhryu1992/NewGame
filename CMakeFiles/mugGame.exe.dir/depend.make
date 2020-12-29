@@ -171,25 +171,4 @@ CMakeFiles/mugGame.exe.dir/SaberSkill.cpp.o: WeaponStatus.h
 CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.o: WeaponStatus.cpp
 CMakeFiles/mugGame.exe.dir/WeaponStatus.cpp.o: WeaponStatus.h
 
-CMakeFiles/mugGame.exe.dir/main.cpp.o: AddInventory.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: ArcherBattle.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: ArcherSkill.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: BerserkerBattle.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: BerserkerSkill.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: CasterBattle.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: CasterSkill.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: HpPotion.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: IntEnergy.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeAccount.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeArcher.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeBerserker.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeCaster.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeMonster.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: MakePotion.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: MakeSaber.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: MpPotion.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: SaberBattle.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: SaberSkill.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: WeaponStatus.h
-CMakeFiles/mugGame.exe.dir/main.cpp.o: main.cpp
 

@@ -3,6 +3,7 @@
 #include <iostream>
 #include "IntEnergy.h"
 #include "MakeMonster.h"
+
 using namespace std;
 
 class Saber : public IntEnergy {
@@ -13,6 +14,7 @@ class Saber : public IntEnergy {
         int Hit(Saber*);
         int injured(Saber*, int);
         int Ultimate(Saber*);
+        void SaberLevel(Saber*);
 };
 
 //Saber* make();

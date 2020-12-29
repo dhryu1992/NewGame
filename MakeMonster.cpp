@@ -1,7 +1,7 @@
 #include "MakeMonster.h"
 
 MakeMonster::MakeMonster(int hp, int mp, int dx) : IntEnergy(hp, mp, dx) {
-	cout << "Monster(in GYM) Appear!\n" << endl;
+	cout << "Monster Appear!\n" << endl;
 }
 
 MakeMonster::~MakeMonster() {

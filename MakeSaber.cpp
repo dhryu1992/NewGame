@@ -27,3 +27,8 @@ int Saber::Ultimate(Saber* saber) {
     cout << "Saber's Mp left: " << saber->m_Mp << endl;
     return saber->m_Mp;
 };
+
+void Saber::SaberLevel(Saber* saber) {
+    cout << "Saber's level is up!" << endl;
+    
+}
