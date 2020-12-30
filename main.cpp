@@ -477,7 +477,7 @@ int main() {
     cout << "Select action.\n1. Attack 2. run" << endl;
     cin >> Decision;
     if(Decision == 1) {
-        while(saber->m_Hp > 0 || archer 
+        while(level1_monster->m_Hp > 0 || saber->m_Hp > 0 && archer->m_Hp > 0 && caster->m_Hp > 0 && berserker->m_Hp > 0) {
     if(saber->m_Dx > level1_monster->m_Dx || archer->m_Dx > level1_monster->m_Dx || caster->m_Dx > level1_monster->m_Dx || berserker->m_Dx > level1_monster->m_Dx) {
         cout << "select the skill" << endl << endl;
         cout << "select Saber's skill" << endl;
@@ -544,8 +544,9 @@ int main() {
         }else {
             cout << "You have wrong answer. one more time " << endl;
             cin >> Decision;
+        
         }
-
+        }
     }else {
         cout << "Monster Hit you!" << endl;
         saber->injured(saber, 30);
@@ -553,5 +554,6 @@ int main() {
         archer->injured(archer, 30);
         berserker->injured(berserker, 30);
     }
+    
     }
 }
